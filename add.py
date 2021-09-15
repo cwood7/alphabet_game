@@ -10,7 +10,7 @@ for i in raw:
     words.append(i.strip().lower())
 
 for i in w:
-        words.append(i + "\n")
+        words.append(i)
 
 outfile = open("word_list.txt", "w")
 for i in words:
